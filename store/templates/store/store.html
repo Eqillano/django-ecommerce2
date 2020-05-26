@@ -1,0 +1,41 @@
+{% extends 'store/main.html' %}
+{% load static %}
+
+{% block content %}
+<div class='row'>
+  <div class='col-lg-4'>
+    <img class='thumbnail' src="{% static 'images/default.jpg' %}">
+    <div class='box-element product'>
+      <h6><strong>Product</strong></h6>
+      <hr>
+      <button class='btn btn-outline-secondary add-btn'>Добавить в корзину
+
+      </button>
+        <a class='btn btn-outline-success' href=''>Открыть</a>
+      </div>
+    </div>
+    <div class='col-lg-4'>
+        <img class='thumbnail' src="{% static 'images/default.jpg' %}">
+      <div class='box-element product'>
+        <h6><strong>Product</strong></h6>
+        <hr>
+        <button class='btn btn-outline-secondary add-btn'>Добавить в корзину
+
+        </button>
+
+        <a class='btn btn-outline-success' href=''>Открыть</a>
+        </div>
+      </div>
+      <div class='col-lg-4'>
+          <img class='thumbnail' src="{% static 'images/default.jpg' %}">
+        <div class='box-element product'>
+          <h6><strong>Product</strong></h6>
+          <hr>
+          <button class='btn btn-outline-secondary add-btn'>Добавить в корзину
+
+          </button>
+            <a class='btn btn-outline-success' href=''>Открыть</a>
+          </div>
+        </div>
+  </div>
+{% endblock %}

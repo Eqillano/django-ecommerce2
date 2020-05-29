@@ -11,9 +11,7 @@
     <div class='box-element product'>
       <h6><strong>{{ product}}</strong></h6>
       <hr>
-      <button class='btn btn-outline-secondary add-btn'>Добавить в корзину
-
-      </button>
+      <button data-product="{{product.id}}" data-action="add" class="btn btn-outline-secondary add-btn update-cart">Добавить в корзину</button>
         <a class='btn btn-outline-success' href=''>Открыть</a>
         <h4>{{ product.price|floatformat:2 }} </h4>
       </div>
